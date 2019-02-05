@@ -1,1 +1,11 @@
 @import "~bootstrap/dist/css/bootstrap.css";  
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('./assets/fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+$font-stack:    'Montserrat Regular', sans-serif;
+
+body {
+    font-family: $font-stack;
+}

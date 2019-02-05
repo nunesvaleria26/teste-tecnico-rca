@@ -1,0 +1,23 @@
+$primary-color: #363636;
+
+.navbar {
+    padding: 3% 6%;
+    .navbar-brand {
+        img {
+            width: 7rem;
+        }
+    }
+    .nav-item  {    
+        .nav-link {
+            font-size: 11px;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            color: $primary-color;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-weight: bold;
+            padding: .5rem 3rem;
+        }
+    }
+}
