@@ -1,0 +1,13 @@
+<div class="container">
+  <article *ngFor="let post of posts;">
+      <h1>{{ post.title}} </h1>
+      <div class="article-infos">
+        <span>Destination Europe</span>
+        <span>Added by <strong> Williams Doe </strong></span>
+        <span>January 01, 2018</span>
+      </div>
+      <img src="assets/images/home/thumb.png" alt="Logo"/>
+      <p>{{ post.body }}</p>
+      <button>read more</button>
+  </article>
+</div>
