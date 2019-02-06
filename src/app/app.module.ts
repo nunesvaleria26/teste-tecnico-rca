@@ -8,15 +8,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { PostDetailComponent } from './post-detail/post-detail.component';
-import { PostFeedComponent } from './post-feed/post-feed.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    PostDetailComponent,
-    PostFeedComponent  
+    PostDetailComponent  
   ],
   imports: [
     BrowserModule,
