@@ -4,7 +4,7 @@ import { PostService } from '../services/post.service';
 import { Post } from '../models/post';
 
 @Component({
-  selector: 'app-post-detail',
+  selector: 'post-detail',
   templateUrl: './post-detail.component.html',
   styleUrls: ['./post-detail.component.scss']
 })
