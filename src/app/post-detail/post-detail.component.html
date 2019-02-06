@@ -1,0 +1,29 @@
+<div class="container">
+  <article>
+    <h1 class="article-title mx-auto mb-6 text-center">{{ post?.title}} </h1>
+    <div class="article-infos row d-flex justify-content-center">
+      <span>Destination Europe</span>
+      <span>Added by
+        <abbr> Williams Doe </abbr>
+      </span>
+      <span>January 01, 2018</span>
+    </div>
+    <img class="article-img img-fluid" src="assets/images/home/thumb.png" alt="Logo" />
+    <div class="article-body">
+      <p class="text-justify">{{ post?.body }}</p>
+      <div class="article-footer row justify-content-between text-justify">
+        <span>Published by John Doe Williams on January 01, 2018</span>
+        <span>Posted Under “Destination Europe”</span>
+      </div>
+      <button class="btn article-btn" >SHOW 2 COMMENTS</button>
+    </div>
+  </article>
+  <ul class="pagination row justify-content-between">
+    <li class="prev">
+      <a href="#">previuos</a>
+    </li>
+    <li class="next disabled">
+      <a href="#">next</a>
+    </li>
+  </ul>
+</div>
