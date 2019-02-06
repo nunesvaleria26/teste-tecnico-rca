@@ -1,0 +1,18 @@
+footer {
+    background-color: #fafafa;
+    font-size: 16px;
+    color: #000000;
+    padding: 5em;
+    img, span {
+        margin: 10px auto;
+        display: block;
+    }
+    span {
+        width: 100%;
+        text-align: center;
+        color: #9b9b9b;
+        abbr {
+            color: #000000;
+        }
+    }
+}

@@ -9,6 +9,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { PostDetailComponent } from './post-detail/post-detail.component';
 import { PostFeedComponent } from './post-feed/post-feed.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PostFeedComponent } from './post-feed/post-feed.component';
     HeaderComponent,
     HomeComponent,
     PostDetailComponent,
-    PostFeedComponent  
+    PostFeedComponent,
+    FooterComponent  
   ],
   imports: [
     BrowserModule,
