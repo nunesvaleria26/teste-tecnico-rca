@@ -3,7 +3,7 @@ import { Post } from '../models/post';
 import { PostService } from '../services/post.service';
 
 @Component({
-  selector: 'post-feed',
+  selector: 'app-post-feed',
   templateUrl: './post-feed.component.html',
   styleUrls: ['./post-feed.component.scss']
 })
