@@ -1,10 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { PostDetailComponent } from './post-detail/post-detail.component';
 
 const routes: Routes = [
   { 
       path: 'home', 
-      loadChildren: './home/home.module#HomeModule'
+      component: HomeComponent
+  },
+  { 
+    path: 'post/:id', 
+    component: PostDetailComponent
   },
   { 
       path: '', 
@@ -13,11 +19,5 @@ const routes: Routes = [
   }
 ]
 
-@NgModule({
-  declarations: [],
-  imports: [
-    RouterModule.forRoot(routes, {useHash: true})
-  ],
-  exports: [ RouterModule ]
-})
-export class AppRoutingModule { }
+export const AppRoutingModule = RouterModule.forRoot(routes)
+ 
