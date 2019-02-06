@@ -6,9 +6,11 @@
         <span>Added by <abbr> Williams Doe </abbr></span>
         <span>January 01, 2018</span>
       </div>
-      <img src="assets/images/home/thumb.png" class="img-fluid" alt="Logo"/>
-      <p class="text-justify">{{ post.body }}</p>
-      <button>read more</button>
+      <img class="article-img img-fluid" src="assets/images/home/thumb.png" alt="Logo"/>
+      <div class="article-body">
+        <p class="text-justify">{{ post.body }}</p>
+        <button class="btn article-btn" [routerLink]="['/post/', post.id]">read more</button>
+      </div>
   </article>
   <ul class="pagination row justify-content-between">
       <li class="prev">
